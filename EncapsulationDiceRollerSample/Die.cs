@@ -13,6 +13,7 @@ namespace EncapsulationDiceRollerSample
     {
         // Static members get shared across all instances of this class
         private static Random rand;
+        private byte faceValue;
 
         /// <summary>
         /// Runs once before any Die objects are created
